@@ -1,0 +1,40 @@
+body {
+    background: #f3eae8;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: none;
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px black;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.introducao {
+    margin: 40px;
+}
+
+.titulo-prin {
+    color: #179ea6 ;
+}
+
+.titulo-4 {
+    color: #b7d945;
+}
+
+.introducao p {
+    color: #d5d3d4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.preco {
+    max-width: 500px;
+    text-align: center;
+}
