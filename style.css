@@ -34,7 +34,78 @@ main {
     font-weight: 700;
 }
 
+.preco-why {
+    display: flex;
+    flex-direction: row;
+}
+
 .preco {
-    max-width: 500px;
+    min-width: 500px;
+    height: 379px;
     text-align: center;
+    background: #14678a;
+    border-radius: 0 0 0 20px;
+    color: #f3eae8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.numero {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.mes{
+    color: #d5d3d4;
+}
+
+.preco button {
+    width: 400px;
+    height: 50px;
+    color: #f3eae8;
+    background: #b7d945;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.preco button:active {
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+.why-us{
+    background:#1da2c6;
+    height: 379px;
+    min-width: 500px;
+    border-radius: 0 0 20px 0;
+    text-align: left;
+    color: #f3eae8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 300ms;
+    
+}
+
+.why-us:hover {
+    font-size: 1.1em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 10px;
+    color: #d5d3d4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
